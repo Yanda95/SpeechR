@@ -1,4 +1,4 @@
-# 🧠 Audio-CORE: Benchmarking Spoken-Language Reasoning in LALMs
+# 🧠 Audio-CORE
 
 **Audio-CORE** is a multimodal benchmark designed to evaluate the reasoning capabilities of large audio-language models (LALMs) across factual, procedural, and normative dimensions. It supports both structured and open-ended evaluation in realistic, dialogue-driven audio scenarios.
 
