@@ -20,8 +20,10 @@ This dataset includes:
 This script uses symbolic rules to extract and evaluate predicted answers from model outputs.
 
 ```bash
-python rule-based-evaluate.py --input-file multi_choice.jsonl
+python rule-based-evaluate.py --input-file multi_choice.jsonl 
+```
 
 ### 🔹 LLM-based Evaluation (for Generative Version, take gpt-4o as example)
-
+```
 python llm-evaluate.py --input-file generative.jsonl --api-key YOUR_OPENAI_KEY
+```
