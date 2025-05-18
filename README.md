@@ -11,19 +11,19 @@ This dataset includes:
 - Three JSONL files:
   - `multi_choice.jsonl`: Multiple-choice questions with options and labels.
   - `generative.jsonl`: Open-ended version for free-form answer generation.
-  - `mini.jsonl`: A 10% subset with added prosody annotations (stress, emotion).
+  - `acoustic-feature.jsonl`: A 10% subset with added prosody annotations (stress, emotion).
 
 ## 📊 Evaluation Scripts
 
-### 🔹 Rule-Based Evaluation (for Multi-Choice and Mini Versions)
+### 🔹 Discrete-choice Evaluation (for Multi-Choice and Acoustic-feature Versions)
 
 This script uses symbolic rules to extract and evaluate predicted answers from model outputs.
 
 ```bash
-python rule-based-evaluate.py --input-file multi_choice.jsonl 
+python discrete-choice_eval.py --input audio_core_multi_choice.jsonl 
 ```
 
-### 🔹 LLM-based Evaluation (for Generative Version, take gpt-4o as example)
+### 🔹 LLM-as-a-judge Evaluation (for Generative Version, take gpt-4o as example)
 ```
-python llm-evaluate.py --input-file generative.jsonl --api-key YOUR_OPENAI_KEY
+python llm-as-a-judge_eval.py --input audio_core_generative.jsonl --api-key YOUR_OPENAI_KEY
 ```
