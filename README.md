@@ -6,6 +6,8 @@
 
 **🔗 Download Link**: [Google Drive](https://drive.google.com/file/d/1BH2r2idILwUHX0NKsXz6GsSXdO0qWly8/view?usp=sharing)
 
+**Mini-Human Download Link**: [Google Drive](https://drive.google.com/file/d/1dyjkrxJAn8gDC_DVMegFT9vvqhs7N9gt/view?usp=sharing)
+
 This dataset includes:
 - Speech data for both **multi-choice** and **generative** versions (they share the same audio recordings).
 - Three JSONL files:
