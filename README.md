@@ -15,6 +15,12 @@ This dataset includes:
   - `generative.jsonl`: Open-ended version for free-form answer generation.
   - `acoustic-feature.jsonl`: A 10% subset with added prosody annotations (stress, emotion).
 
+## Appendix Summary
+
+The appendix of SpeechR provides detailed insights into dataset construction, evaluation, and analysis. It defines three core reasoning types—factual, procedural, and normative—based on knowledge source, reasoning complexity, and answer objectivity. It also describes data processing steps such as readability enhancement, conversational restructuring, and annotation of acoustic features (e.g., stress and emotion).
+
+Additionally, the appendix introduces source datasets, model baselines, and prompt templates used for data generation and evaluation. It includes human verification results showing high data quality, as well as ablation studies demonstrating that speech-based reasoning is significantly more challenging than text-based reasoning. Finally, it presents qualitative examples, discusses limitations of current benchmarks, and outlines future directions such as improving speech diversity, multilingual coverage, and interactive dialogue settings. :contentReference[oaicite:0]{index=0}
+
 ## 📊 Evaluation Scripts
 
 ### 🔹 Discrete-choice Evaluation (for Multi-Choice and Acoustic-feature Versions)
