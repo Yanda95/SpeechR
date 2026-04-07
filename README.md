@@ -17,9 +17,9 @@ This dataset includes:
 
 ## Appendix Summary
 
-The appendix of SpeechR provides detailed insights into dataset construction, evaluation, and analysis. It defines three core reasoning types—factual, procedural, and normative—based on knowledge source, reasoning complexity, and answer objectivity. It also describes data processing steps such as readability enhancement, conversational restructuring, and annotation of acoustic features (e.g., stress and emotion).
+The appendix mainly covers how SpeechR is built and evaluated. It explains the three reasoning categories used in the benchmark: factual reasoning, procedural reasoning, and normative reasoning. It also describes how the data is processed, including text cleanup for speech synthesis, converting samples into more natural dialogue formats, and adding acoustic-related annotations such as stress and emotion.
 
-Additionally, the appendix introduces source datasets, model baselines, and prompt templates used for data generation and evaluation. It includes human verification results showing high data quality, as well as ablation studies demonstrating that speech-based reasoning is significantly more challenging than text-based reasoning. Finally, it presents qualitative examples, discusses limitations of current benchmarks, and outlines future directions such as improving speech diversity, multilingual coverage, and interactive dialogue settings. :contentReference[oaicite:0]{index=0}
+Besides that, the appendix lists the source datasets, the compared models, and the prompts used during data construction and evaluation. It also reports human checks on data quality, provides ablation results comparing speech reasoning with text-based pipelines, and includes several qualitative case studies. In the end, it discusses current limitations and possible future improvements, such as richer speech variation, multilingual settings, and more interactive multi-turn dialogue.
 
 ## 📊 Evaluation Scripts
 
